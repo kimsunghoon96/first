@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./">
+  <style>
+  body{
+    width: 1500px;
+  }
+  body>div{
+    line-height: 75%;
+    font-family: 'Inter';  
+    font-weight: 900;
+    font-size: 100px;
+  }
+  .color-1{
+    color: #0F0F0F;
+  }
+  .color-2{
+    color: blue;
+    position: relative;
+    left: 1000px;
+  }
+  #button{
+    height: 200px;
+    width: 200px;
+  }
+</style>
+</head>
+<body>
+  <div>
+    <div class="color-1">if you don't have ideas</div>
+    <div class="color-2">read.</div>
+    <div class="color-1">if you have ideas</div>
+    <div class="color-1">but can't articulate them</div>
+    <div class="color-2">write.</div>
+    <div class="color-1">if you have ideas</div>
+    <div class="color-1">and th clarity to execute</div>
+    <div class="color-2">build.</div>
+    <div class="color-2">expand.</div>
+    <div class="color-2">organize.</div>
+    <div class="color-1">until your craziest</div>
+    <div class="color-1">ideas become reality</div>
+    <input type="button" value="123" id = "button" onclick="colorchange()">
+  </div>
+</body>
+</html>
